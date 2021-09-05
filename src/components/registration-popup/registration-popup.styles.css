@@ -1,0 +1,29 @@
+.registration__register-button{
+    height: 40px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.1s;
+    outline: none;
+}
+/* .registration__register-button:hover{
+    height: 40px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transform: translate(0px,-2px);
+    box-shadow: 2px 3px #888888;
+} */

@@ -1,0 +1,84 @@
+section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.lightbox img {
+    width: 75%;
+    margin-bottom: 30px;
+    margin-top: 4px;
+    padding: 0px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+.lightbox-gif img {
+    width: 90%;
+    margin-bottom: 102px;
+    margin-top: 70px;
+    padding: 0px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+.lightbox-gif img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox-collab img {
+    width: 90%;
+    margin-bottom: 117px;
+    margin-top: 70px;
+    padding: 0px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 19%)
+}
+
+.lightbox-collab img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}

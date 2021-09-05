@@ -1,0 +1,89 @@
+.treasure-wrap {
+  width: 100vw;
+  background-image: url('../../assets/logo-512.png');
+  background-repeat: no-repeat ;
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+}
+.user-status{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.submit-btn{
+  width: 140px;
+  color: black;
+  background: rgba(204, 158, 231,1);
+  border: 1px solid purple;
+  border-radius: 5px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.submit-btn:hover{
+  color: white;
+  border-color: white;
+  transition: all 0.3s;
+  background-color: rgba(92, 14, 180,0.8);
+}
+.ctn{
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 40px;
+  background: #8080801d;
+  width: 600px;
+  margin: 16vh auto;
+}
+#set-select{
+  text-align: end;
+  margin-bottom: 24px;
+}
+#set-no{
+  width: 50px;
+  padding-left: 10px;
+}
+#set-no:focus{
+  outline: none;
+}
+.level-btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.level-btn {
+  width: 120px;
+  height: 45px;
+  border-radius: 2rem;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px;
+  transition: 0.5s;
+}
+.level-btn:hover{
+  background-color: rgba(120,10,140,0.9);
+  border: 2px solid rgba(255,255,255,1);
+  color: black;
+}
+.level-btn:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: -1px;
+  right: -10px;
+  transition: 0.3s;
+}
+.level-btn:hover:after {
+  opacity: 1;
+  right: -5px;
+}
+.level-btn:focus{
+  outline: none;
+}
+@media only screen and (max-width:650px){
+  .ctn{
+    width: 90vw;
+  }
+}

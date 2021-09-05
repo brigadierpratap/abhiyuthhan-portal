@@ -1,0 +1,43 @@
+.question-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+    padding:1rem;
+    text-align: left;
+}
+
+.options{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-weight: bold;
+    font-size: 22px;
+    /* align-content: flex-start; */
+    text-align: left;
+    padding: 1rem;
+    line-height: 2;
+}
+
+  @media screen and (min-width: 320px) {
+    .question-title{
+      font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .question-title{
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    .options{
+      font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .options{
+      font-size: 20px;
+    }
+  }
+

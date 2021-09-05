@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1001,
+    "Question": "Longest river is",
+    "options": ["Amazon", "Nile", "Ganges", "Thames"]
+  },
+  {
+    "id": 1002,
+    "Question": "Who invented the Light Bulb?",
+    "options": [
+      "MK Gandhi",
+      "Nicol Telsa",
+      "Thomas Alva Edison",
+      "Abrahim Lincon"
+    ]
+  },
+  {
+    "id": 1003,
+    "Question": " Which planet in our solar system is known as the Red Planet?",
+    "options": ["Sun", "Mars", "Pluto", "Earth"]
+  },
+  {
+    "id": 1004,
+    "Question": "Who invented the Telephone?",
+    "options": [
+      "Zakir Khan",
+      "Premchand",
+      "William Shakesphere",
+      "Alexander Graham Bell"
+    ]
+  },
+  {
+    "id": 1005,
+    "Question": "Who invented the Printing Press?",
+    "options": ["E Chances Wood", "Johannes Gutenberg", "Jon Snow", "Larry Jr. Page"]
+  },
+  {
+    "id": 1006,
+    "Question": "What is the name of the largest moon of Saturn?",
+    "options": ["Titan", "AE45-H1", "Arya", "Stark"]
+  },
+  {
+    "id": 1007,
+    "Question": "425 x 2",
+    "options": ["900", "1000", "850", "600"]
+  },
+  {
+    "id": 1008,
+    "Question": "Smallest three digit number with all different number",
+    "options": ["123", "999", "111", "102"]
+  },
+  {
+    "id": 1009,
+    "Question": "Most famous hostel in NITP is",
+    "options": ["Bagmati", "Sone", "Bhramaputra", "Kosi"]
+  },
+  {
+    "id": 1010,
+    "Question": "Who are the founders of Google?",
+    "options": ["Larry Page", "Sergey Brin", "Larry Page and Sergey Brin", "Lanister"]
+  }
+]

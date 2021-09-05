@@ -1,0 +1,84 @@
+.loading,
+.loaded {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  overflow: auto;
+  border-radius: 0 0 0.6rem 0.6rem;
+  padding: 0.4rem 0.8rem;
+  margin: 3px;
+  background: linear-gradient(90deg, purple, rgb(92, 14, 180));
+  transition: all 0.2s ease-in-out;
+}
+.loading {
+  top: -2rem;
+  opacity: 0;
+}
+
+.signedIn,
+.notSignedIn {
+  position: absolute;
+  padding: 0.6rem 0 0.4rem 0;
+  left: 1rem;
+  right: 7rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inherit;
+  z-index: 1;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.signedIn {
+  left: 3.8rem;
+}
+
+.avatar {
+  border-radius: 2rem;
+  float: left;
+  height: 2.2rem;
+  width: 2.2rem;
+  background-color: purple;
+  background-size: cover;
+  border: 1px solid #ddd;
+}
+
+.signinButton,
+.signoutButton {
+  font-weight: bolder;
+  width: 100px;
+  float: right;
+  margin-right: -0.4rem;
+  background: rgb(212, 28, 202);
+  color: white;
+  border: 2px solid rgba(0,0,0,0.7);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  position: relative;
+  z-index: 10;
+  transition: all 0.5s;
+}
+.signinButton:focus,
+.signoutButton:focus{
+  outline: none;
+}
+.signinButton:hover {
+  background-color: #ff008d;
+  border-color: #ff008d;
+  color: #000;
+}
+
+.signoutButton {
+  font-weight: bold;
+  background-color: #fff;
+  border-color: #aaa;
+  color: #555;
+}
+
+.signoutButton:hover {
+  background: rgb(244, 184, 231);
+  border-color: #000;
+  color: #333;
+}

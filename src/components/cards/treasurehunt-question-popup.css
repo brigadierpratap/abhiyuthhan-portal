@@ -1,0 +1,104 @@
+#treasure-level-name{
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#treasure-que-img{
+	margin: 10px auto;
+	max-width: 90%;
+	border: 1px solid purple;
+}
+#treasure-answer-submit-field{
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#treasure-answer-submit-btn{
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 6px;
+    width: 110px;
+    color: black;
+    background: rgb(204, 158, 231);
+    border: 1px solid purple;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#treasure-answer-submit-btn:hover{
+  color: white;
+  border-color: rgb(238, 32, 142);
+  transition: all 0.3s;
+  background-color: rgb(238, 32, 142);
+}
+#treasure-answer-submit-field:focus,#treasure-answer-submit-btn:focus{
+	outline: none;
+}
+#hint-skip-btns{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#hint-skip-btns input:focus{
+  outline: none;
+}
+#treasure-hint-btn{
+	width: 100px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 5px;
+    width: 110px;
+    color: black;
+    background: rgb(204, 158, 231);
+    border: 1px solid purple;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#treasure-skip-btn{
+	width: 100px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 5px;
+    width: 110px;
+    color: black;
+    background: rgb(204, 158, 231);
+    border: 1px solid purple;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#treasure-hint-btn:hover{
+  color: white;
+  border-color: white;
+  border-left: 2px solid purple;
+  transition: all 0.3s;
+  background-color: rgba(92, 14, 180,0.8);
+}
+#treasure-skip-btn:hover{
+  color: white;
+  border-color: white;
+  border-right: 2px solid purple;
+  transition: all 0.3s;
+  background-color: rgba(92, 14, 180,0.8);
+}
+#treasure-hint-message{
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+@media only screen and (max-width:500px){
+	#treasure-answer-submit-field{
+		width: 100%;
+	}
+    #treasure-answer-submit-btn{
+	    border-radius: 5px;
+    }
+}
+@media only screen and (max-width:360px){
+	#hint-skip-btns{
+		justify-content: center;
+	}
+	#hint-skip-btns input{
+		width: 150px;
+		margin-top: 10px;
+	    border-radius: 5px;
+	}
+}

@@ -1,0 +1,40 @@
+ .speakers-card{
+ 	font-family: "Courier New", monospace;
+ 	text-align: center;
+ 	width: 340px;
+ 	border: 1px solid white;
+ 	margin: 20px;
+ 	height: auto;
+ 	padding: 20px;
+ 	border-radius: 10px;
+
+ 	background: rgba(144, 110, 184,0.2);
+ }
+ .speakers-card>img{
+ 	width: 100%;
+ 	background: black;
+ 	border: 1px solid gray;
+ 	object-fit: contain;
+ 	border-radius: 10px;
+ }
+ .speakers-card>.name{
+ 	   cursor: pointer;
+     color: #fff;
+     font-weight: bold;
+ 	/* background-color: #fff;
+     border-color: #aaa;
+     border: 2px solid rgba(0,0,0,0.7);
+     border-radius: 10px; */
+     /* font-size: 1rem; */
+     margin-bottom: 0px !important;
+     padding: 0.8rem 0.6rem;
+     transition: all 0.5s;
+ }
+ .speakers-card>.name:hover{
+ 	/* background: purple; */
+     /* border-color: #fff; */
+     color: purple;
+ }
+ .speakers-card > h2 {
+   padding: 5px;
+ }
